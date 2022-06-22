@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning bootstrap v5 with sass</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body style="overflow-x: hidden;">
+    <!--START THE NAVBAR SECTION-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/Mountain_Outline.png" alt="logo image" alt="" width="120" height="96">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sponsors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <button type="button" class="rounded-pill btn-rounded">+1 7283655413
+                <span>
+                    <i class="fas fa-phone-alt"></i>
+                </span>
+            </button>
+          </div>
+        </div>
+      </nav>
+      
+<!--START THE INTRO SECTION-->
+<section id="home" class="intro-section">
+    <div class="container">
+        <div class="row align-center text-white">
+            <div class="col-md-6 intros">
+                <h1 class="display-2">
+                    <span class="display-2--intro">Hey!, I'm Marco</span>
+                    <span class="display-2--description lh-base">This is a description</span>
+                </h1>
+                <button type="button" class="rounded-pill btn-rounded">Get in touch
+                    <span>
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+            <!--START THE CONTENT FOR THE VIDEO-->
+            <div class="col-md-6 intros text-end">
+                <div class="video-box">
+                    <img src="images/arts/Mountain_Monochromatic.png" alt="video illustration" class="img-fluid">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,138.7C384,139,480,149,576,165.3C672,181,768,203,864,197.3C960,192,1056,160,1152,149.3C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+<!-- START THE COOMPANIES-->
+<section id="companies">
+    <div class="container">
+        <div class="row text-center">
+            <h4 class="fw-bold lead mb-3">Sponsored by</h4>
+            <div class="heading-line mb-5"></div>
+        </div>
+    </div>
+    <!--START SPONSOR-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companies__logo-box">
+                    <img src="images/companies/SCARPA_Lockup_logo.svg.png" alt=""></div>
+            </div>
+            <div class="col-md-4 col-lg2">
+                <div class="companies__logo-box shadow-sm">
+                    <img src="images/companies/laspo.png" alt=""></div>
+            </div>
+            <div class="col-md-4 col-lg2">
+                <div class="companies__logo-box shadow-sm">
+                    <img src="images/companies/salewa.png" alt=""></div>
+            </div>
+            <div class="col-md-4 col-lg2">
+                <div class="companies__logo-box shadow-sm">
+                    <img src="images/companies/black-diamond-logo-1.png" alt=""></div>
+            </div>
+            <div class="col-md-4 col-lg2">
+                <div class="companies__logo-box shadow-sm">
+                    <img src="images/companies/Logo_petzl.png" alt=""></div>
+            </div>
+            <div class="col-md-4 col-lg2">
+                <div class="companies__logo-box shadow-sm">
+                    <img src="images/companies/patagonia.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--START SECTION 4 THE SERVICES-->
+<section class="services">
+        <div class="row text-center">
+            <h1 class="display-3 fw-bold">My services</h1>
+            <div class="heading-line mb-1"></div>
+    </div>
+
+    <!--START DESCRIPTION CONTENT-->
+        <div class="row pt-2 pb-2 mt-0 mb-3">
+            <div class="col-md-6 border-right">
+                <div class="bg-white p-3">
+                    <h2 class="fw-bold text-capitalize text-center">
+                        We will take you anywhere!
+                    </h2>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bg-white p-4 text-start">
+                    <p class="fw-light">
+                        Ovunque ma proprio ovunque everywhere su e già sinsitra destra non saprai mai dove sei perchè sei ovunque
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    <!--START CONTENT FOR THE SERVICES-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+                <div class="services__content">
+                    <div class="icon d-block fas fa-mountain"></div>
+                    <h3 class="display-3--title mt-1">Mountains!</h3>
+                    <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum totam accusamus molestias! Veritatis illo laborum quaerat repudiandae ipsa aliquam voluptate molestiae obcaecati. Obcaecati veritatis culpa modi quidem sint.</p>
+                    <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+                        <span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+                <div class="services__pic"></div>
+                <img src="images/services/Mountain_Monochromatic (1).png" alt="mountain illustration" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                <div class="services__pic"></div>
+                <img src="images/services/Adventure _Monochromatic.png" alt="mountain illustration" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+                <div class="services__content">
+                    <div class="icon d-block  fa-brands fa-wpexplorer"></div>
+                    <h3 class="display-3--title mt-1">Adventures</h3>
+                    <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum totam accusamus molestias! Veritatis illo laborum quaerat repudiandae ipsa aliquam voluptate molestiae obcaecati. Obcaecati veritatis culpa modi quidem sint.</p>
+                    <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+                        <span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+                <div class="services__content">
+                    <div class="icon d-block fas fa-mountain"></div>
+                    <h3 class="display-3--title mt-1">Adrenaline</h3>
+                    <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum totam accusamus molestias! Veritatis illo laborum quaerat repudiandae ipsa aliquam voluptate molestiae obcaecati. Obcaecati veritatis culpa modi quidem sint.</p>
+                    <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+                        <span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+                <div class="services__pic"></div>
+                <img src="images/services/Camping_Monochromatic.png" alt="mountain illustration" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--START TESTIMONIAL SECTION-->
+<section class="testimonials" id="testimonials">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffff" fill-opacity="1" d="M0,64L30,90.7C60,117,120,171,180,176C240,181,300,139,360,117.3C420,96,480,96,540,117.3C600,139,660,181,720,170.7C780,160,840,96,900,106.7C960,117,1020,203,1080,224C1140,245,1200,203,1260,165.3C1320,128,1380,96,1410,80L1440,64L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path>
+    </svg>
+    <div class="container">
+        <div class="row text-center">
+            <h1 class="display-3 fw-bold text-white">Testimonials</h1>
+            <hr style="width: 100px; height: 3px;" class="mx-auto">
+            <p class="lead pt-1 text-white">What they say about us</p>
+        </div>
+
+        <!--START THE CAROUSEL-->
+        <div class="row align-items-center">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <!--ITEM 1-->
+                  <div class="carousel-item active">
+                    <div class="testimonials__card">
+                        <p class="lh-lg">
+                            <i class="fas fa-qoute-left"></i>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum quaerat eos dolorem neque, illum reiciendis facere nulla sequi, rerum iste?
+                            <i class="fas fa-qoute-right"></i>
+                            <div class="ratings p-1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="testimonials__picture">
+                        <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="testimonials__name">
+                        <h3>Patrick Muriungi</h3>
+                        <p class="fw-light">Ceo & founder</p>
+                    </div>
+                  </div>
+                  <!--ITEM 2-->
+                  <div class="carousel-item">
+                    <div class="testimonials__card">
+                        <p class="lh-lg">
+                            <i class="fas fa-qoute-left"></i>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum quaerat eos dolorem neque, illum reiciendis facere nulla sequi, rerum iste?
+                            <i class="fas fa-qoute-right"></i>
+                            <div class="ratings p-1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="testimonials__picture">
+                        <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="testimonials__name">
+                        <h3>Joy Marete</h3>
+                        <p class="fw-light">Finance Manager</p>
+                    </div>
+                  </div>
+                  <!--ITEM 3-->
+                  <div class="carousel-item">
+                    <div class="testimonials__card">
+                        <p class="lh-lg">
+                            <i class="fas fa-qoute-left"></i>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum quaerat eos dolorem neque, illum reiciendis facere nulla sequi, rerum iste?
+                            <i class="fas fa-qoute-right"></i>
+                            <div class="ratings p-1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="testimonials__picture">
+                        <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="testimonials__name">
+                        <h3>Clarabbella</h3>
+                        <p class="fw-light">Global brand</p>
+                    </div>
+                  </div>
+                  <!--ITEM 4-->
+                  <div class="carousel-item">
+                    <div class="testimonials__card">
+                        <p class="lh-lg">
+                            <i class="fas fa-qoute-left"></i>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum quaerat eos dolorem neque, illum reiciendis facere nulla sequi, rerum iste?
+                            <i class="fas fa-qoute-right"></i>
+                            <div class="ratings p-1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="testimonials__picture">
+                        <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="testimonials__name">
+                        <h3>Uhuru Kenyatta</h3>
+                        <p class="fw-light">Founder</p>
+                    </div>
+                  </div>   
+            </div>
+            <div class="text-center">
+                <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" href="#carouselExampleIndicators" role="button" data-slide="next">
+            </div>
+        </div>
+    </div>
+</div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffff" fill-opacity="1" d="M0,64L30,90.7C60,117,120,171,180,176C240,181,300,139,360,117.3C420,96,480,96,540,117.3C600,139,660,181,720,170.7C780,160,840,96,900,106.7C960,117,1020,203,1080,224C1140,245,1200,203,1260,165.3C1320,128,1380,96,1410,80L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    </svg>
+</section>
+
+<!--START SECTION 6 FAQ-->
+<section class="faq" id="faq">
+    <div class="container">
+        <div class="row text-center">
+            <h1 class="display-3 fw-bold text-uppercase">FAQ</h1>
+            <div class="heading-line"></div>
+            <p class="lead">Frequently asked questions</p>
+        </div>
+        <!--ACCORDION CONTENT-->
+        <div class="row mt-5">
+            <div class="cool-md-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item shadow mb-3">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item shadow mb-3">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item shadow mb-3">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item shadow mb-3">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Accordion Item #4
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the fourth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--START SECTION 7-->
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="row text-center mt-5">
+            <h1 class="display-3 fw-bold text-capitalize">Latest Work</h1>
+            <div class="heading-line"></div>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe illum odit quod.
+            </p>
+        </div>
+
+        <!--FILTER BUTTONSS-->
+        <div class="row mt-5 mb-4 g-3 text-center">
+            <div class="col-md-12">
+                <button class="btn btn-outline-primary" type="button">All</button>
+                <button class="btn btn-outline-primary" type="button">websites</button>
+                <button class="btn btn-outline-primary" type="button">design</button>
+                <button class="btn btn-outline-primary" type="button">mockup</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+   
+
+    <script src="./assets/vendors/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({
+            'href': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoPlayVideo': 'true',
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
