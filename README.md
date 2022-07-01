@@ -23,5 +23,16 @@ Here the Bootstrap's Carousel
 And here the Accordion
 ![image](https://user-images.githubusercontent.com/14850581/176615780-d2d012d3-78d4-4cdb-a883-f6db28919c3f.png)
 
+#Portfolio
+Portfolio style list of projects
+![image](https://user-images.githubusercontent.com/14850581/176835656-421d1633-7b3e-4bc9-89f5-2a41fc843ad6.png)
+
+#Get Started
+The subscription form
+![image](https://user-images.githubusercontent.com/14850581/176835737-2b3078b6-56c3-473a-a6d1-333be0ba7be1.png)
+
+#Footer
+![image](https://user-images.githubusercontent.com/14850581/176835762-46fc67bc-3d36-4b73-ae83-1e46b88bef8f.png)
+
 
 
